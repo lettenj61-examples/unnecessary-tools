@@ -1,0 +1,19 @@
+{
+  "name": "unnecessary-tools",
+  "version": "1.0.0",
+  "description": "Tools may be unnecessary",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve -p 3000 src/*.html"
+  },
+  "keywords": [],
+  "author": "lettenj61 <letitscalable+git@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "nano-jsx": "^0.0.26",
+    "open-props": "^1.0.12"
+  }
+}

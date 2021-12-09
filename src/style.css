@@ -1,0 +1,43 @@
+@import 'npm:open-props/open-props.min.css';
+@import 'npm:open-props/normalize.min.css';
+
+body {
+  display: flex;
+}
+
+.layout {
+  display: grid;
+  align-items: center;
+}
+
+.cols-2 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.buttons {
+  display: flex;
+  gap: var(--size-3);
+}
+
+button {
+  background: var(--gray-3);
+  color: var(--gray-8);
+  font-size: var(--font-size-3);
+  padding-inline: var(--size-8);
+  padding-block: var(--size-3);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-2);
+}
+
+button:hover {
+  background-color: var(--gray-4);
+}
+
+button.primary {
+  background-color: var(--brand);
+  color: var(--gray-0);
+}
+
+button.primary:hover {
+  background-color: var(--pink-7);
+}
