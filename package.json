@@ -1,19 +1,22 @@
 {
   "name": "unnecessary-tools",
-  "version": "1.0.0",
-  "description": "Tools may be unnecessary",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "parcel serve -p 3000 src/*.html"
-  },
-  "keywords": [],
-  "author": "lettenj61 <letitscalable+git@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "parcel": "^2.0.1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "nano-jsx": "^0.0.26",
-    "open-props": "^1.0.12"
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.8",
+    "@types/react": "17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "typescript": "4.5.4"
   }
 }
