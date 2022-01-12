@@ -12,7 +12,7 @@ export default function Navigation(): JSX.Element {
           </div>
         </div>
 
-        <div className="navbar-menu">
+        <div className="navbar-menu is-active">
           <div className="navbar-start">
             <Link href="/text">
               <a className="navbar-item">Text</a>
