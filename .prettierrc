@@ -1,7 +1,7 @@
 {
-  "arrowParens": "always",
+  "arrowParens": "avoid",
   "printWidth": 100,
   "quoteProps": "preserve",
-  "semi": true,
-  "singleQuote": false
+  "semi": false,
+  "singleQuote": true
 }
