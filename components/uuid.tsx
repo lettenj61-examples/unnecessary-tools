@@ -23,9 +23,6 @@ export default function UuidGenerator() {
         <div className="control">
           <button className="button is-primary is-medium" onClick={generateUuid}>Generate</button>
         </div>
-        <div className="contro">
-          <button className="button is-medium">TEST</button>
-        </div>
       </div>
     </>
   )
