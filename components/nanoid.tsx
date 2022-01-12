@@ -46,7 +46,7 @@ export default function NanoidGenerator(props: Props) {
           />
         </p>
       </div>
-      <div className="field is-grouped">
+      <div className="field is-grouped is-grouped-multiline">
         <div className="control">
           <input readOnly type="text" className="input is-medium" value={output} />
         </div>
