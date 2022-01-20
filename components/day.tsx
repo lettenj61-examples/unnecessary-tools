@@ -174,7 +174,7 @@ function DateModifier({ date, format }: { date: Dayjs, format: string }) {
           <span className="select is-medium">
             <select onChange={changeOperator}>
               {operators.map(op => (
-                <option value={op}>{displayOperator(op)}</option>
+                <option value={op} key={`operator--${op}`}>{displayOperator(op)}</option>
               ))}
             </select>
           </span>
