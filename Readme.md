@@ -9,6 +9,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 * ランダム文字列生成
   - [nanoid](https://github.com/ai/nanoid)を生成
   - [UUID](https://datatracker.ietf.org/doc/html/rfc4122) (V4)を生成
+* 日付のフォーマット、計算
+  - [dayjs](https://day.js.org)
 
 ## Development
 
