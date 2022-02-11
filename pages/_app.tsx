@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Script
+        id="googletagmanager"
         strategy='afterInteractive'
         dangerouslySetInnerHTML={{
           __html: `
