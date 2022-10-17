@@ -54,11 +54,11 @@ export default function TableCleaner() {
             onInput={e => setOffset(e.currentTarget.valueAsNumber)}
           />
         </p>
-        <p className="control">
-          <button className="button is-primary" onClick={onClick}>
-            Clean Up
-          </button>
-        </p>
+      </div>
+      <div className="buttons">
+        <button className="button is-primary" onClick={onClick}>
+          Clean Up
+        </button>
       </div>
       <div className="columns">
         <div className="column">
