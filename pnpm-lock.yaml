@@ -5,7 +5,7 @@ specifiers:
   '@types/papaparse': ^5.3.5
   '@types/react': 17.0.38
   '@types/uuid': ^8.3.4
-  dayjs: ^1.10.7
+  dayjs: ^1.11.5
   eslint: 8.6.0
   eslint-config-next: 12.0.7
   gridjs: 5.1.0
@@ -19,7 +19,7 @@ specifiers:
   uuid: ^8.3.2
 
 dependencies:
-  dayjs: 1.10.7
+  dayjs: 1.11.5
   gridjs: 5.1.0
   gridjs-react: 5.1.0_gridjs@5.1.0+react@18.2.0
   nanoid: 3.2.0
@@ -503,8 +503,8 @@ packages:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
     dev: true
 
-  /dayjs/1.10.7:
-    resolution: {integrity: sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==}
+  /dayjs/1.11.5:
+    resolution: {integrity: sha512-CAdX5Q3YW3Gclyo5Vpqkgpj8fSdLQcRuzfX6mC6Phy0nfJ0eGYOeS7m4mt2plDWLAtA4TqTakvbboHvUxfe4iA==}
     dev: false
 
   /debug/2.6.9:

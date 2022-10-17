@@ -1,4 +1,4 @@
-import dayjs, { type Dayjs } from 'dayjs'
+import dayjs, { type Dayjs, type ManipulateType } from 'dayjs'
 import { type FormEvent, useState } from 'react'
 
 export default function DayjsComponent() {
@@ -161,9 +161,9 @@ function DateModifier({ date, format }: { date: Dayjs, format: string }) {
     }
 
     return operator === 'add'
-      ? date.add(amount, unit)
+      ? date.add(amount, unit as ManipulateType)
       : operator === 'subtract'
-        ? date.subtract(amount, unit)
+        ? date.subtract(amount, unit as ManipulateType)
         : dayjs(null)
   })()
 
