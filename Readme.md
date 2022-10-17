@@ -11,6 +11,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   - [UUID](https://datatracker.ietf.org/doc/html/rfc4122) (V4)を生成
 * 日付のフォーマット、計算
   - [dayjs](https://day.js.org)
+* CSVをJSONやHTMLテーブルに変換
+  - [papaparse](https://www.papaparse.com/)
+  - [gridjs](https://gridjs.io/)
 
 ## Development
 
