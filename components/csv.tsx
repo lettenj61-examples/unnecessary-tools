@@ -67,7 +67,7 @@ function Output({ result, mode }: CsvOutputProps) {
   if (mode === 'json') {
     return (
       <div className="field">
-        <textarea className="textarea" readOnly={true} style={{ fontFamily: 'monospace' }}>
+        <textarea className="textarea is-family-code" readOnly={true}>
           {JSON.stringify(result.data, null, 2)}
         </textarea>
       </div>

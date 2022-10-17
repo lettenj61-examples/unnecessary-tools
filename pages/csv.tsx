@@ -1,4 +1,5 @@
 import Csv from '../components/csv'
+import TableCleaner from '../components/tableCleaner'
 
 export default function Page() {
   return (
@@ -14,6 +15,10 @@ export default function Page() {
       <section className="section">
         <div className="container">
           <Csv />
+
+          <hr />
+
+          <TableCleaner />
         </div>
       </section>
     </>
