@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "dayjs": "^1.10.7",
-    "gridjs": "^5.0.2",
-    "gridjs-react": "^5.0.2",
+    "gridjs": "5.1.0",
+    "gridjs-react": "5.1.0",
     "nanoid": "^3.1.31",
     "next": "12.3.1",
     "papaparse": "^5.3.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
