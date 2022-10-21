@@ -46,8 +46,8 @@ const Page: NextPage = () => {
             </p>
           </div>
           <div className={outputClassName}>
-            {output.length ? (
-              <a href={output} target="_blank">
+            {output?.length ? (
+              <a href={output} target="_blank" rel="noopener noreferrer">
                 {output}
               </a>
             ) : (
