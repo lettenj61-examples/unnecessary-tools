@@ -23,6 +23,9 @@ export default function Navigation(): JSX.Element {
             <Link href="/csv">
               <a className="navbar-item">CSV</a>
             </Link>
+            <Link href="/url">
+              <a className="navbar-item">URL</a>
+            </Link>
           </div>
         </div>
       </nav>
