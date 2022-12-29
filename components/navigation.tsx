@@ -20,6 +20,9 @@ export default function Navigation(): JSX.Element {
             <Link href="/datetime">
               <a className="navbar-item">Date Time</a>
             </Link>
+            <Link href="/elm">
+              <a className="navbar-item">Elm</a>
+            </Link>
             <Link href="/csv">
               <a className="navbar-item">CSV</a>
             </Link>
