@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Csv from '../components/csv'
+import Paragraph from '../components/paragraph'
 import TableCleaner from '../components/tableCleaner'
 
 export default function Page() {
@@ -24,6 +25,10 @@ export default function Page() {
           <hr />
 
           <TableCleaner />
+
+          <hr />
+
+          <Paragraph />
         </div>
       </section>
     </>

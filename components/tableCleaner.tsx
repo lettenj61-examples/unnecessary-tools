@@ -63,9 +63,11 @@ export default function TableCleaner() {
       <div className="columns">
         <div className="column">
           <div className="field">
-            <textarea className="textarea" onInput={e => setContent(e.currentTarget.value)}>
-              {content}
-            </textarea>
+            <textarea
+              className="textarea"
+              onInput={e => setContent(e.currentTarget.value)}
+              value={content}
+            ></textarea>
           </div>
         </div>
 

@@ -1,4 +1,5 @@
 import { NextPage } from 'next'
+import Head from 'next/head'
 import { useMemo, useState } from 'react'
 
 const Page: NextPage = () => {
@@ -25,6 +26,10 @@ const Page: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <title>URL Utilities | Unnecessary Tools</title>
+      </Head>
+
       <section className="hero is-small">
         <div className="hero-body">
           <h1 className="title">URL Utilities</h1>
