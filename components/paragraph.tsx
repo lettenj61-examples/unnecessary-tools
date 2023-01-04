@@ -35,7 +35,7 @@ function formatParagraph(text: string): string[] {
       const val = line.trim()
       state.chunk += val
 
-      if (val.endsWith('.')) {
+      if (isPeriod(val)) {
         state.buffer.push(state.chunk)
         state.chunk = ''
       }
@@ -43,4 +43,8 @@ function formatParagraph(text: string): string[] {
     },
     { chunk: '', buffer: [] }
   ).buffer
+}
+
+function isPeriod(text: string): boolean {
+  return text.endsWith('.') || text.endsWith('?') || text.endsWith('!')
 }
