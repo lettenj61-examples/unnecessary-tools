@@ -62,7 +62,7 @@ export default function QuotedPrintable() {
           onClick={() => setMode(EncoderMode.DECODER)}
         >Decode</button>
         <button
-          className="button is-primary"
+          className="button"
           disabled={mode === EncoderMode.NONE}
           onClick={() => { setInput(''); setMode(EncoderMode.NONE) }}
         >Reset</button>
