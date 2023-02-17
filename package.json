@@ -8,19 +8,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/utf8": "^3.0.1",
     "dayjs": "^1.11.5",
     "gridjs": "5.1.0",
     "gridjs-react": "5.1.0",
     "nanoid": "^3.1.31",
     "next": "12.3.1",
     "papaparse": "^5.3.1",
+    "quoted-printable": "^1.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "utf8": "^3.0.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "17.0.8",
     "@types/papaparse": "^5.3.5",
+    "@types/quoted-printable": "^1.0.0",
     "@types/react": "17.0.38",
     "@types/uuid": "^8.3.4",
     "eslint": "8.6.0",
