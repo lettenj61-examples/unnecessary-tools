@@ -2,6 +2,7 @@ import Head from 'next/head'
 import NanoidGenerator from '../components/nanoid'
 import UuidGenerator from '../components/uuid'
 import QuotedPrintable from '../components/quotedPrintable'
+import Segmenter from '../components/segmenter'
 
 export default function Page() {
   return (
@@ -35,6 +36,12 @@ export default function Page() {
       <section className="section" id="quoted-printable">
         <div className="container">
           <QuotedPrintable />
+        </div>
+      </section>
+
+      <section className="section" id="tiny-segmenter">
+        <div className="container">
+          <Segmenter />
         </div>
       </section>
     </>
